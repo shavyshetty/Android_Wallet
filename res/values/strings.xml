@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Digital Wallet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <color name="black">#000000</color>
+
+    <string name="userid">Email Address</string>
+    <string name="password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="title_activity_select_type">Select_type</string>
+    <string name="merch">Merchant</string>
+    <string name="cust">Customer</string>
+    <string name="select_type">Please select the type of transaction you want to make:</string>
+    <string name="title_activity_merchant">Merchant</string>
+    <string name="make_trans">Make A Transaction</string>
+    <string name="logs">View Logs</string>
+    <string name="xchang_rates">Current Exchange Rates</string>
+    <string name="title_activity_merch_trans">Merchant</string>
+    <string name="enter_details">Enter Product Details</string>
+    <string name="Item_code">Item Code</string>
+    <string name="Item_cost">Item Cost(Rs.)</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_gen__qr">Gen_QR</string>
+    <string name="title_activity_client">Client</string>
+    <string name="check_balance">Check Balance </string>
+    <string name="p2p">P2P Transfer</string>
+    <string name="trusted">Trusted Contacts</string>
+    <string name="title_activity_logs">Logs</string>
+    <string name="title_activity_exchange_rates">Exchange_rates</string>
+    <string name="title_activity_client_trans">Client</string>
+    <string name="title_activity_capture__qr">Capture QR</string>
+    <string name="title_activity_check_bal">Check Balance</string>
+    <string name="title_activity_p2_p">Peer To Peer Transfer</string>
+    <string name="title_activity_trusted_contacts">Trusted Contacts</string>
+
+</resources>

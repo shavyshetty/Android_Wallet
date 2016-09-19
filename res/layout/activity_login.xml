@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context=".Login" 
+	android:orientation="vertical"
+	android:background="@color/black">
+
+<TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="UserID"
+ /> 
+                
+ <EditText android:id="@+id/userid"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		 android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+ 		android:inputType="textEmailAddress" 
+ 		android:hint="@string/userid" />
+ 
+ <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Password"/> 		
+ 
+ <EditText android:id="@+id/paassword"
+ 		   android:layout_width="fill_parent" 
+ 		   android:layout_height="wrap_content"
+ 		   android:layout_centerHorizontal="true"
+           android:layout_centerVertical="true"
+ 		   android:inputType="textPassword"
+ 		   android:hint="@string/password" />
+ 
+ <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/button_login"
+        android:onClick="select_type" />
+  
+ </LinearLayout>
+ 
+ 

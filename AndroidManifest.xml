@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.digitalwallet"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.project.digitalwallet.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.project.digitalwallet.Select_type"
+            android:label="@string/title_activity_select_type" >
+        </activity>
+        <activity
+            android:name="com.project.digitalwallet.Merchant"
+            android:label="@string/title_activity_merchant"
+            android:parentActivityName="android.accounts.AccountAuthenticatorActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.accounts.AccountAuthenticatorActivity" />
+        </activity>
+        <activity
+            android:name="com.project.digitalwallet.Merch_trans"
+            android:label="@string/title_activity_merch_trans" >
+        </activity>
+        <activity
+            android:name="com.project.digitalwallet.Gen_QR"
+            android:label="@string/title_activity_gen__qr" >
+        </activity>
+        <activity
+            android:name="com.project.digitalwallet.Client"
+            android:label="@string/title_activity_client" >
+        </activity>
+        <activity
+            android:name="com.project.digitalwallet.Logs"
+            android:label="@string/title_activity_logs" >
+        </activity>
+        <activity
+            android:name="com.project.digitalwallet.Exchange_rates"
+            android:label="@string/title_activity_exchange_rates" >
+        </activity>
+        <activity
+            android:name="com.project.digitalwallet.Client_trans"
+            android:label="@string/title_activity_client_trans" >
+        </activity>
+        <activity
+            android:name="com.project.digitalwallet.Capture_QR"
+            android:label="@string/title_activity_capture__qr" >
+        </activity>
+        <activity
+            android:name="com.project.digitalwallet.Check_bal"
+            android:label="@string/title_activity_check_bal" >
+        </activity>
+        <activity
+            android:name="com.project.digitalwallet.P2P"
+            android:label="@string/title_activity_p2_p" >
+        </activity>
+        <activity
+            android:name="com.project.digitalwallet.Trusted_contacts"
+            android:label="@string/title_activity_trusted_contacts" >
+        </activity>
+    </application>
+
+</manifest>
